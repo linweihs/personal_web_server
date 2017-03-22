@@ -1,0 +1,209 @@
+body {
+	margin: 0 auto;
+	font-family: arial;
+}
+
+ul {
+	margin: 0;
+}
+
+a {
+	font-weight: bold;
+	text-decoration: none;
+}
+
+table {
+	width: 100%;
+}
+
+header {
+	height: 15%;
+	background-color: #FFFFFF;
+}
+
+#shell {
+	width: 900px;
+	height: 600px;
+	background-color: #9A9A9A;
+	border: 1px solid #6D6D6D;
+	border-radius: 10px;
+	margin: 15px;
+	-moz-box-shadow: inset 0 0 3px #6B6B6B;
+	-webkit-box-shadow: inset 0 0 3px #6B6B6B;
+	box-shadow: inset 0 0 3px #6B6B6B;
+	overflow: hidden;
+	border-bottom: 5px solid #9A9A9A;
+}
+
+#content {
+	margin: 1% 1% 1% 2%;
+	padding: 2%;
+	height: 100%;
+	overflow-y: auto;
+	overflow-x: hidden;
+	text-align: top;
+	background-color: #FFFFFF;
+	border-radius: 5px;
+	color: black;
+}
+
+nav#side {
+	background-color: #ADADAD;
+	float: left;
+	width: 28%;
+	height: 100%;
+	margin: 1%;
+}
+
+#logo {
+	float: left;
+}
+
+#logo img {
+	height: 90px;
+	width: 190px;
+}
+
+nav#top {
+	text-align: right;
+	padding-right: 8px;
+	padding-top: 5px;
+}
+
+
+#top li {
+	display: inline-block;
+}
+
+#top li a {
+	display: block;
+	font-size: 16px;
+	color: #444444;
+	padding-left: 5px;
+}
+
+#userName {
+	font-size: 18px;
+	font-weight: bold;
+}
+
+#customerList {
+	width: 30%;
+	height: 100%;
+	background: pink;
+	float: left;
+}
+
+#navList ul {
+	padding: 0;
+}
+
+#navList li {
+	border-bottom: 1px solid #979797;
+}
+
+#navList li a {
+	display: block;
+	padding: 5px;
+	color: #fff;
+	text-decoration: none;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+#navList li a:hover {
+	background-color: #D9D8D8;
+	color: #fff;
+}
+
+#listTitle {
+	width: 100%;
+	background-color: #75151E;
+	margin: 0;
+	padding: 5px 0px 5px;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	text-align: center;
+	color: #fff;
+}
+
+.customerHistory {
+	width: 100%;
+	height: 100px;
+	overflow: auto;
+}
+
+.customerOrders {
+	width: 100%;
+}
+
+.customerOrders th {
+	background-color: #BFBFBF;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+.customerOrders td {
+	font-size: 11px;
+}
+
+.orderData {
+	text-align: center;
+}
+
+.orderOnHold {
+	color: red;
+}
+
+.orderTotal {
+	text-align: right;
+	padding-right: 2px;
+}
+
+.orderStatus {
+	text-align: center;
+	width: 30%;
+}
+
+.orderStatusMsg {
+	text-align: center;
+	font-size: 11px;
+	font-weight: bold;
+}
+
+.contactInfo {
+	font-size: 13px;
+}
+
+.customerInfoNav {
+	font-size: 16px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.customerInfoNav a {
+	font-size: 11px;
+	font-weight: bold;
+	text-decoration: none;
+	background-color: #C08389;
+	color: #FFFFFF;
+	padding: 2px 6px 2px 6px;
+	border-top: 1px solid #CCCCCC;
+	border-right: 1px solid #333333;
+	border-bottom: 1px solid #333333;
+	border-left: 1px solid #CCCCCC;
+	border-radius: 4px;
+	width: 30px;
+}
+
+.customerInfoNav a:hover {
+	background-color: #E0ADB2;
+	color: #F9E9EB;
+	cursor: pointer;
+}
+
+.address {
+	width: 40%;
+	height: 60px;
+	font-size: 14px;
+}

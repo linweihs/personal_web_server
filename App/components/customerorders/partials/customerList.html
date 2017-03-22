@@ -1,0 +1,10 @@
+<div id="listTitle">Customer List:</div>
+<section id="navList" ng-controller="customerListController">
+	<ul>
+		<li ng-repeat="customer in customerList">
+			<a ui-sref="customerInfo({ customerID:customer.custNum })"> 
+			{{customer.name}} 
+			</a>
+		</li>
+	</ul>
+</section>
