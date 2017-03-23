@@ -16,3 +16,6 @@ e.g.
 ```
 brew search node
 ```
+
+### Memo
+1. integrate jade template engine
