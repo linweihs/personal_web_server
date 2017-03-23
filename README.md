@@ -5,6 +5,14 @@
 ```
 
 ### nodejs
+
+At the moment, I'm using v6.10.1
 ```
-brew install node
+brew install node@6
+```
+
+you can always search for versions available on brew.
+e.g.
+```
+brew search node
 ```
