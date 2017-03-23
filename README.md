@@ -17,5 +17,14 @@ e.g.
 brew search node
 ```
 
+### Running Server
+```
+node app.js
+```
+OR
+```
+npm start # defined in package.json
+```
+
 ### Memo
-1. integrate jade template engine
+1. integrate jade template engine (done)

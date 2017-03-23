@@ -1,0 +1,15 @@
+doctype html
+html(ng-app="customerOrdersApp")
+    head
+        link(rel='stylesheet', href='App/css/default.css')
+    body
+        main#shell
+            header(ng-include, src="'App/components/customerorders/partials/header.html'")
+            nav(id="side", ng-include, src="'App/components/customerorders/partials/customerList.html'")
+            section(id="content", ui-view)
+
+        script(src="App/components/thirdParty/angular.min.js")
+        script(src="App/components/thirdParty/angular-ui-router.min.js")
+        script(src="App/components/app.js")
+        script(src="App/components/customerorders/data/appdata.js")
+        script(src="App/components/customerorders/controllers/controllers.js")
