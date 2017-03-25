@@ -1,0 +1,12 @@
+<div id="listTitle">Work</div>
+<section id="navList" ng-controller="workExperienceController">
+    <div ng-bind="companyList.title"></div>
+    <div ng-bind="companyList.date"></div>
+    <ul>
+        <li ng-repeat="d in companyList.descriptions">
+            <a>
+                {{d.item}}
+            </a>
+        </li>
+    </ul>
+</section>

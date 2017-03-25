@@ -1,0 +1,15 @@
+doctype html
+html(ng-app="resumeApp")
+    head
+        link(rel='stylesheet', href='App/css/default.css')
+    body
+        main#shell
+            header(ng-include, src="'App/components/customerorders/partials/header.html'")
+            //nav(id="side", ng-include, src="'App/components/customerorders/partials/customerList.html'")
+            section(id="content", ng-include, src="'App/components/projectlist/partials/workExperience.html'")
+
+        script(src="App/components/thirdParty/angular.min.js")
+        script(src="App/components/thirdParty/angular-ui-router.min.js")
+        script(src="App/components/app_1.js")
+        script(src="App/components/projectlist/data/appdata.js")
+        script(src="App/components/projectlist/controllers/controllers.js")
