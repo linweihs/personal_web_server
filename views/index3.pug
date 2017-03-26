@@ -1,0 +1,36 @@
+doctype html
+html(ng-app="resumeApp")
+    head
+        //link(rel='stylesheet', href='App/css/default.css')
+        link(rel='stylesheet', href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css", integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u", crossorigin="anonymous")
+    body
+        div.container
+            h1.text-center WEI-HSIANG (Max) LIN
+            p.text-center blahblahblah
+        div.container.center-block
+            div.row
+                div.col-md-12.bg-info role#1
+            div.row
+                div.col-md-8.bg-primary
+                    h2 Projects
+                    p.text-left list1blahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblah
+                    p list2
+                    p list3
+                div.col-md-4.bg-success
+                    h2 Contact
+                    p list1
+                    p list2
+                    p list3
+            h1 2nd container
+        a(class="btn btn-primary", href="#") A pure Button
+        button.btn.btn-success Enter
+        //main#shell
+          //  header(ng-include, src="'App/components/customerorders/partials/header.html'")
+            //nav(id="side", ng-include, src="'App/components/customerorders/partials/customerList.html'")
+            //section(id="content", ng-include, src="'App/components/projectlist/partials/workExperience.html'")
+
+        script(src="App/components/thirdParty/angular.min.js")
+        script(src="App/components/thirdParty/angular-ui-router.min.js")
+        script(src="App/components/app_1.js")
+        script(src="App/components/projectlist/data/appdata.js")
+        script(src="App/components/projectlist/controllers/controllers.js")

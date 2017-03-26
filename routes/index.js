@@ -4,7 +4,7 @@
  *   */
 
 exports.index = function(req, res){
-      res.render('index2', { title: 'Express' });
+      res.render('index3', { title: 'Express' });
 };
 
 /** serve jade enabled partials */
