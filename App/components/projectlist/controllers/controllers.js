@@ -1,9 +1,8 @@
 var routerControllers = angular.module("resumeApp.controllers", []);
 
-console.log("yo sup");
 // header
 routerControllers.controller("navController", ["$scope", function($scope){
-	$scope.user = "Max Linx ";
+	$scope.user = "Max Lin ";
 }]);
 
 // company list history

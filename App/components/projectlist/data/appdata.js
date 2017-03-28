@@ -1,10 +1,10 @@
 var appData = angular.module("resumeApp.appData", []);
 
-console.log("yo sup");
-
 appData.value("resumeData", {
     companyHistory : {
         Yahoo : {
+            name : "Yahoo!",
+            url : "https://www.yahoo.com",
             title : "Production Engineer",
             date : "Jul 2014 - Present",
             descriptions : [ {

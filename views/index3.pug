@@ -11,11 +11,8 @@ html(ng-app="resumeApp")
             div.row
                 div.col-md-12.bg-info role#1
             div.row
-                div.col-md-8.bg-primary
-                    h2 Projects
-                    p.text-left list1blahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblah
-                    p list2
-                    p list3
+                div.col-md-5.col-md-offset-2.bg-primary
+                    include ../App/components/projectlist/partials/workExperience.pug
                 div.col-md-4.bg-success
                     include ../App/components/projectlist/partials/contact.pug
                     include ../App/components/projectlist/partials/imalso.pug

@@ -1,0 +1,10 @@
+h2 Work Experience
+section(ng-controller="workExperienceController")
+    a(href="{{companyList.url}}") {{companyList.name}}
+    | -
+    strong {{companyList.title}}
+    sub [{{companyList.date}}]
+    //<div ng-bind="companyList.title"></div>
+    //<div ng-bind="companyList.date"></div>
+    ul
+        li(ng-repeat="i in companyList.descriptions") {{i.item}}
