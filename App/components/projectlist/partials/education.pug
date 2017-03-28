@@ -1,0 +1,7 @@
+h2 Education
+section(ng-controller="educationController")
+    div(ng-repeat="i in educationList")
+        a(href="{{i.url}}") {{i.name}}
+        | -
+        sub {{i.date}}
+        li {{i.degree}}

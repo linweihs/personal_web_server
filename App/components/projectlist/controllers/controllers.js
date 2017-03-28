@@ -10,6 +10,11 @@ routerControllers.controller("workExperienceController", ["$scope", "resumeData"
 	$scope.companyList = resumeData.getInfoForCompany("Yahoo");
 }]);
 
+// education
+routerControllers.controller("educationController", ["$scope", "resumeData", function($scope, resumeData){
+	$scope.educationList = resumeData.getEducationHistory();
+}]);
+
 // customer info
 //routerControllers.controller("customerController", ["$scope", "$stateParams", "customerData", function($scope, $stateParams, customerData){
 //	$scope.custInfo= customerData.getInfoForCust($stateParams.customerID);

@@ -11,14 +11,12 @@ html(ng-app="resumeApp")
             div.row
                 div.col-md-12.bg-info role#1
             div.row
-                div.col-md-5.col-md-offset-2.bg-primary
+                div.col-md-7.col-md-offset-1.bg-primary
+                    include ../App/components/projectlist/partials/education.pug
                     include ../App/components/projectlist/partials/workExperience.pug
-                div.col-md-4.bg-success
+                div.col-md-3.bg-success
                     include ../App/components/projectlist/partials/contact.pug
                     include ../App/components/projectlist/partials/imalso.pug
-            h1 2nd container
-        a(class="btn btn-primary", href="#") A pure Button
-        button.btn.btn-success Enter
         //main#shell
           //  header(ng-include, src="'App/components/customerorders/partials/header.html'")
             //nav(id="side", ng-include, src="'App/components/customerorders/partials/customerList.html'")
