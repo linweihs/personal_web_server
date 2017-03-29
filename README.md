@@ -54,6 +54,19 @@ App/components/projectlist/controllers/*
 # CSS
 * Bootstrap 3
 * customize fontsize, fontfamily using bootstrap.less
+* Build bootstrap with less
+* modify variables.less to suit the needs
+
+Tutorial
+* http://www.helloerik.com/bootstrap-3-less-workflow-tutorial
+* https://doc.bccnsoft.com/docs/bootstrap-docs/less.html#compiling
+
+```
+npm install -g less less-plugin-clean-css
+cd less
+lessc --clean-css bootstrap.less ../App/css/bootstrap.min.css
+```
+
 
 # Directory Layout
 ```
