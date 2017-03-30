@@ -1,7 +1,8 @@
-h2 Work Experience
+h3.bordered
+    strong Work Experience
 section(ng-controller="workExperienceController")
     a(href="{{companyList.url}}") {{companyList.name}}
-    | -
+    span.glyphicon.glyphicon-minus
     strong {{companyList.title}}
     sub [{{companyList.date}}]
     //<div ng-bind="companyList.title"></div>

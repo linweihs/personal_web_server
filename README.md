@@ -67,6 +67,9 @@ cd less
 lessc --clean-css bootstrap.less ../App/css/bootstrap.min.css
 ```
 
+## Changing the icon font location
+Bootstrap assumes icon font files will be located in the ../fonts/ directory, relative to the compiled CSS files.
+
 
 # Directory Layout
 ```
