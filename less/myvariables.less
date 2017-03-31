@@ -42,7 +42,7 @@
 //
 //## Font, line-height, and color for body text, headings, and more.
 
-@font-family-sans-serif:  "Cabin", "Helvetica Neue", Helvetica, Arial, sans-serif;
+@font-family-sans-serif:  "Helvetica Neue", Helvetica, Arial, sans-serif;
 @font-family-serif:       Georgia, "Times New Roman", Times, serif;
 //** Default monospace fonts for `<code>`, `<kbd>`, and `<pre>`.
 @font-family-monospace:   Menlo, Monaco, Consolas, "Courier New", monospace;
@@ -868,4 +868,6 @@
 //** Horizontal line color.
 @hr-border:                   @gray-lighter;
 
-
+// overwrite
+@font-size-h1:            floor((@font-size-base * 5.0)); // ~36px
+@font-family-sans-serif:  'Rubik','Quicksand', "Helvetica Neue", Helvetica, Arial, sans-serif;
