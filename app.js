@@ -29,6 +29,7 @@ app.use(express.static(__dirname));
 
 app.get('/', routes.index);
 //app.get('/partials/:name', routes.partials);
+app.get('/resume', routes.resume);
 app.get('*', routes.index);
 
 http.createServer(app).listen(app.get('port'), function(){

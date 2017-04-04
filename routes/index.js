@@ -4,7 +4,12 @@
  *   */
 
 exports.index = function(req, res){
-      res.render('index3', { title: 'Express' });
+     // res.render('index3');
+      res.redirect('/resume');
+};
+
+exports.resume = function(req, res){
+      res.render('index3');
 };
 
 /** serve jade enabled partials */

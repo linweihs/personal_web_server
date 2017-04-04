@@ -26,6 +26,21 @@ OR
 npm start # defined in package.json
 ```
 
+## Install node using nvm
+```
+curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.32.0/install.sh | bash
+```
+Activate nvm by typing the following at the command line.
+```
+. ~/.nvm/nvm.sh
+```
+
+Use nvm to install the version of Node.js you intend to use by typing the following at the command line.
+```
+nvm install 6.10.1
+```
+
+
 # Data 
 data module
 * holds data 

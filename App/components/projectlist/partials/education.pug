@@ -1,7 +1,7 @@
 h3.bordered
     strong Education
 section(ng-controller="educationController")
-    div(ng-repeat="i in educationList")
+    div(ng-repeat="i in educationList | orderBy: '-date'")
         h4
             a(href="{{i.url}}") {{i.name}}
             |

@@ -30,20 +30,20 @@ appData.value("resumeData", {
             } ]
         }
     },
-    educationHistory : {
-        USC : {
+    educationHistory : [
+        {
             name : "University of Southern California",
             url : "https://www.usc.edu",
             degree : "Master of Science(M.S), Computer Science",
             date : "2012-2014"
         },
-        Fujen : {
+        {
             name : "Fu Jen University",
             url : "http://www.fju.edu.tw",
             degree : "Bachelor of Science(B.S), Computer Science",
             date : "2007-2011"
         }
-    },
+    ],
     getCompanyList : function() {
         return this.companyHistory;
     },
